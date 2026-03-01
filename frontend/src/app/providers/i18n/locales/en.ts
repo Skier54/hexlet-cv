@@ -1,5 +1,12 @@
 export default {
   translation: {
+    articles: {
+      description: 'Articles, news, and tips about job searching',
+      readNextActionLabel: 'Next',
+      readingTime_one: '{{count}} minute',
+      readingTime_other: '{{count}} minutes',
+      title: 'News',
+    },
     communities: {
       action_connect_to: 'Присоединиться к сообществу',
       anchor: 'Сообщество',
@@ -80,26 +87,27 @@ export default {
       },
       trainingPrograms: {
         title: 'Our training programs',
-        cards: {
-          jobSearch: {
-            title: 'How to search for a job',
-            description: 'Search strategy, positioning, resume, interviews.',
-            button: 'Learn more',
-          },
-          freelance: {
-            title: 'How to work as a freelancer',
-            description:
-              'Portfolio, brief, communications, pricing, agreements.',
-            button: 'Learn more',
-          },
-          foreignJobs: {
-            title: 'How to find work abroad',
-            description:
-              'Markets, platforms, preparing profiles and applications in English.',
-            button: 'Learn more',
-          },
-        },
+        button: 'Learn more',
       },
+      performanceReview: {
+        title: 'Performance review and grade determination',
+        button: 'Sign up',
+      },
+      knowledgeBaseAndInterview: {
+        title: 'Knowledge base and interviews',
+        knowledgeBaseTitle: 'Knowledge Base',
+        knowledgeBaseDescription: 'Step-by-step guides, checklists and templates for job search.',
+        interviewQuestionsTitle: 'Interview questions',
+        interviewQuestionsDescription: 'Collection of real questions and answers about roles and stack.',
+        realInterviewVideosTitle: 'Real interviews videos',
+        realInterviewVideosDescription: 'Interviews analysis with expert comments and checklists.',
+        button: 'Get access',
+      },
+      webinars: {
+        title: 'Webinars with HR and Experts',
+        viewSchedule: 'View Schedule',
+      },
+
     },
     accountPage: {
       purchases: {
@@ -136,6 +144,10 @@ export default {
       goToCatalog: 'Go to Catalog',
     },
     adminPage: {
+      header: {
+        title: 'Admin Panel',
+        logoutButton: 'Logout',
+      },
       interviews: {
         title: 'Interviews',
         input: 'Search: title/speaker',
@@ -144,6 +156,24 @@ export default {
         interviewSpeaker: 'Speaker',
         interviewVideo: 'Video',
         interviewPublished: 'Published',
+      },
+      knowledgeBase: {
+        title: 'Knowledge base',
+        input: 'Search: title/category',
+        button: 'Create',
+        articleTitle: 'Title',
+        articlecategory: 'Category',
+        articlePublished: 'Published',
+        baseIsEmpty: 'The knowledge base is empty',
+        nothingFound: 'Nothing is found by request',
+      },
+      studyPrograms: {
+        title: 'Study programs',
+        button: 'Add program',
+        programName: 'Name',
+        programDuration: 'Duration',
+        programLessons: 'Lessons',
+        programPublished: 'Published',
       },
     },
   },

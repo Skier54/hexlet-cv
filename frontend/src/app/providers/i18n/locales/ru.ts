@@ -1,5 +1,14 @@
 export default {
   translation: {
+    articles: {
+      description: 'Статьи, новости и советы о поиске работы',
+      readNextActionLabel: 'Читать далее',
+      readingTime_one: '{{count}} минута',
+      readingTime_few: '{{count}} минуты',
+      readingTime_many: '{{count}} минут',
+      readingTime_other: '{{count}} минут',
+      title: 'Новости',
+    },
     communities: {
       action_connect_to: 'Присоединиться к сообществу',
       anchor: 'Сообщество',
@@ -80,27 +89,27 @@ export default {
       },
       trainingPrograms: {
         title: 'Наши программы обучения',
-        cards: {
-          jobSearch: {
-            title: 'Как искать работу',
-            description:
-              'Стратегия поиска, позиционирование, резюме, собеседования.',
-            button: 'Узнать подробнее',
-          },
-          freelance: {
-            title: 'Как работать на фрилансе',
-            description:
-              'Портфолио, бриф, коммуникации, ценообразование, договорённости.',
-            button: 'Узнать подробнее',
-          },
-          foreignJobs: {
-            title: 'Как искать валютную работу',
-            description:
-              'Рынки, площадки, подготовка профилей и откликов на английском.',
-            button: 'Узнать подробнее',
-          },
-        },
+        button: 'Узнать подробнее',
       },
+      performanceReview: {
+        title: 'Performance review и определение грейда',
+        button: 'Записаться',
+      },
+      knowledgeBaseAndInterview: {
+        title: 'База знаний и интервью',
+        knowledgeBaseTitle: 'База знаний',
+        knowledgeBaseDescription: 'Пошаговые гайды, чек-листы и шаблоны для поиска работы.',
+        interviewQuestionsTitle: 'Вопросы с собеседований',
+        interviewQuestionsDescription: 'Коллекция реальных вопросов и ответов по ролям и стеку.',
+        realInterviewVideosTitle: 'Записи реальных собесов',
+        realInterviewVideosDescription: 'Разбор интервью с комментариями экспертов и чек-листами.',
+        button: 'Получить доступ',
+      },
+      webinars: {
+        title: 'Вебинары с HR и экспертами',
+        viewSchedule: 'Смотреть расписание',
+      },
+
     },
     accountPage: {
       purchases: {
@@ -118,7 +127,7 @@ export default {
           purchase_date: 'Дата',
           price: 'Цена',
           status: 'Статус',
-          receipt: 'Чек'
+          receipt: 'Чек',
         },
       },
     },
@@ -136,6 +145,10 @@ export default {
       goToCatalog: 'В каталог',
     },
     adminPage: {
+      header: {
+        title: 'Admin Panel',
+        logoutButton: 'Выход',
+      },
       interviews: {
         title: 'Интервью',
         input: 'Поиск: заголовок/спикер',
@@ -144,6 +157,24 @@ export default {
         interviewSpeaker: 'Спикер',
         interviewVideo: 'Видео',
         interviewPublished: 'Публикация',
+      },
+      knowledgeBase: {
+        title: 'База знаний',
+        input: 'Поиск: заголовок/категория',
+        button: 'Создать',
+        articleTitle: 'Заголовок',
+        articlecategory: 'Категория',
+        articlePublished: 'Публикация',
+        baseIsEmpty: 'База знаний пока пуста',
+        nothingFound: 'По запросу ничего не найдено',
+      },
+      studyPrograms: {
+        title: 'Программы обучения',
+        button: 'Добавить программу',
+        programName: 'Название',
+        programDuration: 'Длительность',
+        programLessons: 'Уроков',
+        programPublished: 'Публикация',
       },
     },
   },
