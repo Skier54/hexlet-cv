@@ -16,8 +16,13 @@ public class TokenService {
     public Tokens authenticateAndGenerate(String email, String password) {
         var authentication = new UsernamePasswordAuthenticationToken(email, password);
         // authenticationManager.authenticate(authentication);
-
+        
         var result = authenticationManager.authenticate(authentication);
+        /*
+        var roles = result.getAuthorities().stream()
+                .map(a -> a.getAuthority())
+                .toList();
+        */
 
         var accessToken = jwtUtils.generateAccessToken(email);
         var refreshToken = jwtUtils.generateRefreshToken(email);
